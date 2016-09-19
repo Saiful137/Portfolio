@@ -1,0 +1,30 @@
+/* CSS Document */
+
+body{margin-top:70px;}
+h1, h2, h3, h4, h5, h6, .navbar-brand{font-family: 'Lobster', cursive;}
+
+
+/*owl-carousel css*/
+#owl-demo .item img{
+display: block;
+width: 100%;
+height: auto;
+}
+
+/*for video responsive*/
+#video{
+	width:560px;
+	height:315px;
+}
+@media only screen and (max-width:767px){
+	#video{
+		width: 450px;
+		height: 253px;
+	}
+}
+@media only screen and (max-width:480px){
+	#video{
+		width: 300px;
+		height: 168px;
+	}
+}
